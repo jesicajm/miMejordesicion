@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+   height: 100%;
+}
+
+body { 
+    font-family: 'Oswald', Helvetica, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 4.2rem auto fit-content(12rem);
+    grid-template-areas: "header"
+                          "main"
+                          "footer";
+    height: 100%;
+}
+
+.main-header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    padding: 0.6rem 1rem;
+    height: 75px;
+    z-index : 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.16);
+}
+
+.image-logo {
+    height: 70px;
+    width: 70px;
+}
+
+main {
+    margin-top: 1.3rem;
+    grid-area: main;
+}
+
+.compra-amazon{
+    font-family: Helvetica,Arial,sans-serif;
+    display:inline-block;
+    max-width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    background-color:#F67618;
+    color:#ffffff !important;
+    font-size:20px;
+    border-radius:11px;
+    padding:0 33px;
+    font-weight:bold;
+    height:50px;
+    cursor:pointer;
+    line-height:50px;
+    text-align:center;
+    margin:0;
+    text-decoration:none;
+}
+
+.main-footer { 
+    grid-area: footer;
+    display: grid;
+    justify-items: center;
+    color: #ffffff;
+    background-color: rgb(71, 69, 69);
+    padding: 1rem 20px;
+}
+
+.main-footer img {
+    margin-top: 2.3rem;
+}
+
+.main-footer p { 
+    padding-top: 0.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+@media (min-width: 22rem){
+    .image-logo__abba {
+        /*height: 3.6rem;*/
+    }
+
+    main {
+        margin-top: 2.1rem;
+    }
+}

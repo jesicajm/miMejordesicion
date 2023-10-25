@@ -7,7 +7,7 @@ html {
 }
 
 body { 
-    font-family: 'Oswald', Helvetica, sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
     margin: 0;
     display: grid;
     grid-template-rows: 4.2rem auto fit-content(12rem);
@@ -40,9 +40,12 @@ body {
     text-align: center;
 }
 
-.modal-pag button{
+.close{
     justify-self: end;
     right: 0;
+    color: #ffffff !important;
+    background: none;
+    opacity: 1;
 }
 
 iframe{

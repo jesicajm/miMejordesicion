@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="./shared.css"> 
-        <title>Document</title>
+        <title>Mi mejor decisión eres tú</title>
         <!-- Facebook Pixel Code -->
         <script>
             !function(f,b,e,v,n,t,s)
@@ -46,22 +46,26 @@
         <script>
             fbq('track','Lead');
         </script>
+        <div class="backdrop"></div>
+        <div class="modal-pag">
+            <button  class="close" type="button" style="color: #def2f5;">Cerrar X</button>
+            <iframe src="https://docs.google.com/gview?url=https://abba-ahorro-inversion.s3.us-east-2.amazonaws.com/MUESTRA+MMDET.pdf&embedded=true"></iframe>
+        </div>
         <header class="main-header">
-            <img class= "image-logo image-logo__abba" src="./logoEd.jpeg" alt="Logo abba seguros">
+            <img class= "imagen-logo" src="./logoEd.jpeg" alt="Logo edmir bohorquez"/>
         </header>  
         <main>
-            <div class="text-video">
+            <div class="text-portada">
                 <section>
-                    <video controls preload="auto">
-                        <source src="./bookTrailer.mp4" />
-                    </video>
+                    <img src="./portada.jpeg" alt="portada libro" />
                 </section>
                 <section>
                     <h4>Mi mejor decisión eres tú</h4>
+                    <hr>
                     <p>Es una novela que te hará vibrar con cada página. Una historia llena de giros inesperados y emociones a flor de piel. ¿Estás listo para descubrir esta historia de amor?</p>
                     <div class="section-actions">
                         <di>
-                            <a href="" class="button read">LEE FRAGMENTO</a>          
+                            <a class="button read">LEE FRAGMENTO</a>          
                         </di>
                         <di>
                             <a href="https://www.amazon.com/dp/B0C7JG9GSN/ref=redir_mobile_desktop?_encoding=UTF8&qid=&ref_=tmm_pap_swatch_0&sr=" class="button amazon">COMPRAR EN AMAZON</a>
@@ -69,6 +73,18 @@
                     </div>     
                 </section>
             </div>
+            <section class="section-video">
+                <video controls preload="auto">
+                    <source src="./bookTrailer.mp4"/>
+                </video>
+            </section>
+            <section class="reviews">
+                <h4>Qué dicen los lectores</h4>
+                <hr>
+                <div>
+                    <img src="./Captura.JPG" alt="reseñas amazon"/>
+                </div>
+            </section>
         </main>     
         <footer class="main-footer">
             <p>Copyright Edmir Bohorquez - Todos los derechos reservados</p>
@@ -78,5 +94,6 @@
                 </svg>
             </a>
         </footer>
+        <script src="./shared.js"></script>
     </body>
     </html>

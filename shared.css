@@ -8,8 +8,6 @@ html {
 
 body { 
     font-family: Helvetica,Arial,sans-serif;
-   /* background: url("vista-hojas-secas-otono.jpg");
-    background-size: cover;*/
     margin: 0;
     display: grid;
     height: 100%;
@@ -58,13 +56,10 @@ iframe{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 2rem;
-    /*padding: 0 4rem;*/
-    /*background-color: #E7C5B1;*/
     background: url("vista-hojas-secas-otono-min.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /*Background-color: #A62522;*/
     color: #5A0609;
     align-items: start;
 }
@@ -73,7 +68,6 @@ iframe{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /*margin-right: 2rem;*/
  } 
 
 .text{
@@ -81,7 +75,6 @@ iframe{
 }
 
 .text h4{
-    /*font-size: 35px;*/
     text-align: center;
     font-size: 22px;
     font-weight: bold;
@@ -93,19 +86,11 @@ iframe{
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    /*font-size: 25px;
-    margin: 0.4rem 0 1rem 0;*/
 }
 
 .portada{
     margin: auto;
-    /*width: 15%;*/
     height: 250px;
-   /* height: 344px;*/
-    overflow: hidden;
-  /*  padding-top: 2.5rem;*/
-    /*display: flex;
-    justify-content: center;*/
 }
 
 .portada img{
@@ -160,9 +145,6 @@ iframe{
 .second-section{
     padding: 2rem 0.5rem;
     background-color: #E7C5B1;
-    /*background: url("vista-hojas-secas-otono.jpg");
-    background-size: cover;*/
-    /*background-color: #E7C5B1;*/
 }
 
 .reviews h4 {
@@ -190,7 +172,6 @@ iframe{
 .review-card {
     border-radius: 8px;
     padding: 1rem 0.5rem;
-    /*padding: 1rem 2rem;*/
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     margin-bottom: 1.5rem;
     color: #5A0609;

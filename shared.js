@@ -1,7 +1,7 @@
 let backdrop = document.querySelector('.backdrop');
 let modal = document.querySelector('.modal-pag');
 let selectLeeFragmento = document.querySelector('.read');
-let selectComprar = document.querySelector('##comprarButton')
+let selectComprar = document.querySelector('#comprarButton')
 let selectCloseButton = document.querySelector('.close');
 
 selectLeeFragmento.addEventListener('click', function() {

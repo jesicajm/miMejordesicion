@@ -71,8 +71,13 @@
                     <a class="button-action">LEER FRAGMENTO</a>
                 </div>
                 <div class="amazon">
-                    <a  href="https://www.amazon.com/dp/B0C7JG9GSN/ref=redir_mobile_desktop?_encoding=UTF8&qid=&ref_=tmm_pap_swatch_0&sr="
+                    <a id="comprarButton" href="https://www.amazon.com/dp/B0C7JG9GSN/ref=redir_mobile_desktop?_encoding=UTF8&qid=&ref_=tmm_pap_swatch_0&sr="
                         class="button-action">COMPRAR EN AMAZON</a>
+                        <script type="text/javascript">
+                            $('#comprarButton').click(function() {
+                              fbq('track', 'Purchase', {currency: "USD", value: 4.99});
+                            });
+                        </script>
                 </div>
             </div>
         </div>

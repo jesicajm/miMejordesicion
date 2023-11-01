@@ -75,6 +75,7 @@
                         class="button-action">COMPRAR EN AMAZON</a>
                         <script type="text/javascript">
                             $('#comprarButton').click(function() {
+                            alert('evento comprar facebbok')
                               fbq('track', 'Purchase', {currency: "USD", value: 4.99});
                             });
                         </script>
